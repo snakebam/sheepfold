@@ -171,7 +171,12 @@ async function saveData() {
       `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${DATA_PATH}?ref=${BRANCH}`,
       { headers: { Authorization: `token ${token}` } }
     );
-    if (!shaRes.ok) throw new Error("Could not fetch current file (check token permissions).");
+    if (!shaRes.ok) {
+      const errBody = await shaRes.json().catch(() => ({}));
+      throw new Error(
+        `Could not fetch current file (HTTP ${shaRes.status}: ${errBody.message || "unknown error"}).`
+      );
+    }
     const shaJson = await shaRes.json();
     dataSha = shaJson.sha;
 
