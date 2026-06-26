@@ -60,6 +60,16 @@ function render() {
     });
 
     cell.appendChild(list);
+
+    if (editing) {
+      const addBtn = document.createElement("button");
+      addBtn.className = "add-task-btn";
+      addBtn.type = "button";
+      addBtn.textContent = "+ add task";
+      addBtn.addEventListener("click", () => addTask(day));
+      cell.appendChild(addBtn);
+    }
+
     calendarEl.appendChild(cell);
 
     if (editing) initSortable(list);
@@ -92,7 +102,33 @@ function renderTask(task) {
 
   li.appendChild(cb);
   li.appendChild(span);
+
+  if (editing) {
+    const del = document.createElement("button");
+    del.className = "delete-task-btn";
+    del.type = "button";
+    del.textContent = "×";
+    del.title = "Delete task";
+    del.addEventListener("click", () => deleteTask(task.id));
+    li.appendChild(del);
+  }
+
   return li;
+}
+
+function addTask(day) {
+  const text = prompt("New task:");
+  if (!text || !text.trim()) return;
+  const id = "t" + Date.now() + Math.floor(Math.random() * 1000);
+  day.tasks.push({ id, text: text.trim(), done: false });
+  render();
+}
+
+function deleteTask(taskId) {
+  state.days.forEach((day) => {
+    day.tasks = day.tasks.filter((t) => t.id !== taskId);
+  });
+  render();
 }
 
 function formatDate(iso) {
