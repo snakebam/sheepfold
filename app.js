@@ -1,7 +1,7 @@
 const REPO_OWNER = "snakebam";
 const REPO_NAME = "sheepfold";
 const DATA_PATH = "data.json";
-const BRANCH = "main";
+const BRANCH = "master";
 
 let state = null;
 let dataSha = null;
