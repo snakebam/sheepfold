@@ -1,0 +1,128 @@
+{
+  "title": "Sheepfold Progress Tracker",
+  "days": [
+    { "date": "2026-06-25", "gray": true, "tasks": [
+      { "id": "d0t1", "text": "Sketch spread 1", "done": true },
+      { "id": "d0t2", "text": "Sketch spread 2", "done": true }
+    ]},
+    { "date": "2026-06-26", "tasks": [
+      { "id": "d1t1", "text": "Sketch spread 4", "done": false },
+      { "id": "d1t2", "text": "Sketch spread 3", "done": false }
+    ]},
+    { "date": "2026-06-27", "tasks": [
+      { "id": "d2t1", "text": "Sketch spread 5", "done": false },
+      { "id": "d2t2", "text": "Sketch spread 6", "done": false }
+    ]},
+    { "date": "2026-06-28", "tasks": [
+      { "id": "d3t1", "text": "Sketch spread 7", "done": false }
+    ]},
+    { "date": "2026-06-29", "tasks": [
+      { "id": "d4t1", "text": "Line spread 1", "done": false }
+    ]},
+    { "date": "2026-06-30", "tasks": [
+      { "id": "d5t1", "text": "Line spread 2", "done": false }
+    ]},
+    { "date": "2026-07-01", "tasks": [
+      { "id": "d6t1", "text": "Line spread 3", "done": false }
+    ]},
+    { "date": "2026-07-02", "tasks": [
+      { "id": "d7t1", "text": "Line spread 4", "done": false }
+    ]},
+    { "date": "2026-07-03", "tasks": [
+      { "id": "d8t1", "text": "Line spread 5", "done": false }
+    ]},
+    { "date": "2026-07-04", "tasks": [
+      { "id": "d9t1", "text": "Line spread 6", "done": false }
+    ]},
+    { "date": "2026-07-05", "tasks": [
+      { "id": "d10t1", "text": "Line spread 7", "done": false }
+    ]},
+    { "date": "2026-07-06", "tasks": [
+      { "id": "d11t1", "text": "Color spread 1", "done": false },
+      { "id": "d11t2", "text": "Color spread 2", "done": false }
+    ]},
+    { "date": "2026-07-07", "tasks": [
+      { "id": "d12t1", "text": "Color spread 3", "done": false },
+      { "id": "d12t2", "text": "Color spread 4", "done": false }
+    ]},
+    { "date": "2026-07-08", "tasks": [
+      { "id": "d13t1", "text": "Color spread 5", "done": false },
+      { "id": "d13t2", "text": "Color spread 6", "done": false },
+      { "id": "d13t3", "text": "Color spread 7", "done": false }
+    ]},
+    { "date": "2026-07-09", "tasks": [
+      { "id": "d14t1", "text": "Sketch spread 8", "done": false },
+      { "id": "d14t2", "text": "Sketch spread 9", "done": false }
+    ]},
+    { "date": "2026-07-10", "tasks": [
+      { "id": "d15t1", "text": "Sketch spread 10", "done": false },
+      { "id": "d15t2", "text": "Sketch spread 11", "done": false }
+    ]},
+    { "date": "2026-07-11", "tasks": [
+      { "id": "d16t1", "text": "Sketch spread 12", "done": false },
+      { "id": "d16t2", "text": "Sketch spread 13", "done": false }
+    ]},
+    { "date": "2026-07-12", "tasks": [
+      { "id": "d17t1", "text": "Line spread 8", "done": false }
+    ]},
+    { "date": "2026-07-13", "tasks": [
+      { "id": "d18t1", "text": "Line spread 9", "done": false }
+    ]},
+    { "date": "2026-07-14", "tasks": [
+      { "id": "d19t1", "text": "Line spread 10", "done": false }
+    ]},
+    { "date": "2026-07-15", "tasks": [
+      { "id": "d20t1", "text": "Line spread 11", "done": false }
+    ]},
+    { "date": "2026-07-16", "tasks": [
+      { "id": "d21t1", "text": "Line spread 12", "done": false }
+    ]},
+    { "date": "2026-07-17", "tasks": [
+      { "id": "d22t1", "text": "Line spread 13", "done": false }
+    ]},
+    { "date": "2026-07-18", "tasks": [
+      { "id": "d23t1", "text": "Color spread 7", "done": false },
+      { "id": "d23t2", "text": "Color spread 8", "done": false }
+    ]},
+    { "date": "2026-07-19", "tasks": [
+      { "id": "d24t1", "text": "Color spread 9", "done": false },
+      { "id": "d24t2", "text": "Color spread 10", "done": false }
+    ]},
+    { "date": "2026-07-20", "tasks": [
+      { "id": "d25t1", "text": "Color spread 11", "done": false },
+      { "id": "d25t2", "text": "Color spread 12", "done": false }
+    ]},
+    { "date": "2026-07-21", "tasks": [
+      { "id": "d26t1", "text": "Color spread 13", "done": false }
+    ]},
+    { "date": "2026-07-22", "tasks": [
+      { "id": "d27t1", "text": "Render 1", "done": false },
+      { "id": "d27t2", "text": "Render 2", "done": false },
+      { "id": "d27t3", "text": "Render 3", "done": false }
+    ]},
+    { "date": "2026-07-23", "tasks": [
+      { "id": "d28t1", "text": "Render 4", "done": false },
+      { "id": "d28t2", "text": "Render 5", "done": false },
+      { "id": "d28t3", "text": "Render 6", "done": false }
+    ]},
+    { "date": "2026-07-24", "tasks": [
+      { "id": "d29t1", "text": "Render 7", "done": false },
+      { "id": "d29t2", "text": "Render 8", "done": false },
+      { "id": "d29t3", "text": "Render 9", "done": false }
+    ]},
+    { "date": "2026-07-25", "tasks": [
+      { "id": "d30t1", "text": "Render 10", "done": false },
+      { "id": "d30t2", "text": "Render 11", "done": false },
+      { "id": "d30t3", "text": "Render 12", "done": false },
+      { "id": "d30t4", "text": "Render 13", "done": false }
+    ]},
+    { "date": "2026-07-26", "tasks": [] },
+    { "date": "2026-07-27", "tasks": [] },
+    { "date": "2026-07-28", "tasks": [] },
+    { "date": "2026-07-29", "tasks": [] },
+    { "date": "2026-07-30", "tasks": [] },
+    { "date": "2026-07-31", "tasks": [] },
+    { "date": "2026-08-01", "tasks": [] },
+    { "date": "2026-08-02", "tasks": [] }
+  ]
+}

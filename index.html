@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sheepfold &middot; Progress Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <h1>Sheepfold</h1>
+      <span class="subtitle">38-day production tracker</span>
+    </div>
+    <div class="controls">
+      <button id="editToggle" class="btn">Edit</button>
+      <button id="saveBtn" class="btn btn-primary hidden">Save</button>
+    </div>
+  </header>
+
+  <section class="progress-section">
+    <div class="progress-meta">
+      <span id="progressLabel">0 / 0 tasks complete</span>
+      <span id="daysLeftLabel"></span>
+    </div>
+    <div class="progress-track">
+      <div id="progressFill" class="progress-fill"></div>
+    </div>
+  </section>
+
+  <main id="calendar" class="calendar"></main>
+
+  <div id="tokenModal" class="modal hidden">
+    <div class="modal-box">
+      <h2>Sign in to edit</h2>
+      <p>Enter a GitHub personal access token with <code>repo</code> scope. It is only kept in this browser tab and used to save directly to the repo.</p>
+      <input id="tokenInput" type="password" placeholder="ghp_..." autocomplete="off">
+      <div class="modal-actions">
+        <button id="tokenCancel" class="btn">Cancel</button>
+        <button id="tokenConfirm" class="btn btn-primary">Continue</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <span id="statusMsg"></span>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.2/Sortable.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
