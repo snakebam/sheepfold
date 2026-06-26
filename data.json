@@ -23,12 +23,12 @@
         {
           "id": "d1t1",
           "text": "Sketch spread 4",
-          "done": false
+          "done": true
         },
         {
           "id": "d1t2",
           "text": "Sketch spread 3",
-          "done": false
+          "done": true
         }
       ]
     },
