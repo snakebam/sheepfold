@@ -168,8 +168,8 @@ async function saveData() {
   statusMsg.textContent = "Saving...";
   try {
     const shaRes = await fetch(
-      `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${DATA_PATH}?ref=${BRANCH}`,
-      { headers: { Authorization: `token ${token}` } }
+      `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${DATA_PATH}?ref=${BRANCH}&_=${Date.now()}`,
+      { headers: { Authorization: `token ${token}` }, cache: "no-store" }
     );
     if (!shaRes.ok) {
       const errBody = await shaRes.json().catch(() => ({}));
