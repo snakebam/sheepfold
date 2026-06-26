@@ -173,6 +173,10 @@ async function saveData() {
     );
     if (!shaRes.ok) {
       const errBody = await shaRes.json().catch(() => ({}));
+      if (shaRes.status === 401) {
+        token = null;
+        sessionStorage.removeItem("sf_token");
+      }
       throw new Error(
         `Could not fetch current file (HTTP ${shaRes.status}: ${errBody.message || "unknown error"}).`
       );
