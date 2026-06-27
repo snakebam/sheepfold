@@ -49,17 +49,18 @@
           "id": "d2t2",
           "text": "Sketch spread 6",
           "done": true
-        },
+        }
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "tasks": [
         {
           "id": "d3t1",
           "text": "Sketch spread 7",
           "done": false
         }
       ]
-    },
-    {
-      "date": "2026-06-28",
-      "tasks": []
     },
     {
       "date": "2026-06-29",
