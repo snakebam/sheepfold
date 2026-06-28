@@ -38,7 +38,7 @@
         {
           "id": "t1782687844059215",
           "text": "Eat first ever salad",
-          "done": false
+          "done": true
         }
       ]
     },
@@ -73,7 +73,7 @@
         {
           "id": "t1782687837093211",
           "text": "Learn how to make american pancakes",
-          "done": false
+          "done": true
         }
       ]
     },
