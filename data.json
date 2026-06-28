@@ -34,6 +34,11 @@
           "id": "t178251270724280",
           "text": "Foliage sketches and render tests",
           "done": true
+        },
+        {
+          "id": "t1782687844059215",
+          "text": "Eat first ever salad",
+          "done": false
         }
       ]
     },
@@ -64,6 +69,11 @@
           "id": "t1782680020064919",
           "text": "Newsletter",
           "done": true
+        },
+        {
+          "id": "t1782687837093211",
+          "text": "Learn how to make american pancakes",
+          "done": false
         }
       ]
     },
