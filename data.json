@@ -151,56 +151,6 @@
       "date": "2026-07-06",
       "tasks": [
         {
-          "id": "d11t1",
-          "text": "Color spread 1",
-          "done": false
-        },
-        {
-          "id": "d11t2",
-          "text": "Color spread 2",
-          "done": false
-        }
-      ]
-    },
-    {
-      "date": "2026-07-07",
-      "tasks": [
-        {
-          "id": "d12t1",
-          "text": "Color spread 3",
-          "done": false
-        },
-        {
-          "id": "d12t2",
-          "text": "Color spread 4",
-          "done": false
-        }
-      ]
-    },
-    {
-      "date": "2026-07-08",
-      "tasks": [
-        {
-          "id": "d13t1",
-          "text": "Color spread 5",
-          "done": false
-        },
-        {
-          "id": "d13t2",
-          "text": "Color spread 6",
-          "done": false
-        },
-        {
-          "id": "d13t3",
-          "text": "Color spread 7",
-          "done": false
-        }
-      ]
-    },
-    {
-      "date": "2026-07-09",
-      "tasks": [
-        {
           "id": "d14t1",
           "text": "Sketch spread 8",
           "done": false
@@ -213,7 +163,7 @@
       ]
     },
     {
-      "date": "2026-07-10",
+      "date": "2026-07-07",
       "tasks": [
         {
           "id": "d15t1",
@@ -228,7 +178,7 @@
       ]
     },
     {
-      "date": "2026-07-11",
+      "date": "2026-07-08",
       "tasks": [
         {
           "id": "d16t1",
@@ -238,6 +188,56 @@
         {
           "id": "d16t2",
           "text": "Sketch spread 13",
+          "done": false
+        }
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "tasks": [
+        {
+          "id": "d11t1",
+          "text": "Color spread 1",
+          "done": false
+        },
+        {
+          "id": "d11t2",
+          "text": "Color spread 2",
+          "done": false
+        }
+      ]
+    },
+    {
+      "date": "2026-07-10",
+      "tasks": [
+        {
+          "id": "d12t1",
+          "text": "Color spread 3",
+          "done": false
+        },
+        {
+          "id": "d12t2",
+          "text": "Color spread 4",
+          "done": false
+        }
+      ]
+    },
+    {
+      "date": "2026-07-11",
+      "tasks": [
+        {
+          "id": "d13t1",
+          "text": "Color spread 5",
+          "done": false
+        },
+        {
+          "id": "d13t3",
+          "text": "Color spread 7",
+          "done": false
+        },
+        {
+          "id": "d13t2",
+          "text": "Color spread 6",
           "done": false
         }
       ]
