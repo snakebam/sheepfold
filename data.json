@@ -118,11 +118,16 @@
         {
           "id": "d14t1",
           "text": "Sketch spread 8",
-          "done": false
+          "done": true
         },
         {
           "id": "d14t2",
           "text": "Sketch spread 9",
+          "done": false
+        },
+        {
+          "id": "t1783011298279609",
+          "text": "Re-do spread 12 storyboard",
           "done": false
         }
       ]
