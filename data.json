@@ -104,17 +104,17 @@
           "id": "d6t1",
           "text": "Line spread 3",
           "done": true
+        },
+        {
+          "id": "d7t1",
+          "text": "Line spread 4",
+          "done": true
         }
       ]
     },
     {
       "date": "2026-07-02",
       "tasks": [
-        {
-          "id": "d7t1",
-          "text": "Line spread 4",
-          "done": true
-        },
         {
           "id": "d14t1",
           "text": "Sketch spread 8",
