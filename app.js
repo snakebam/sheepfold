@@ -25,31 +25,44 @@ function todayStr() {
   return d.toISOString().slice(0, 10);
 }
 
+async function apiLoad() {
+  // Authenticated API: always fresh, 5000 req/hr. Used when signed in.
+  const headers = { Accept: "application/vnd.github.v3+json" };
+  if (token) headers.Authorization = `token ${token}`;
+  const res = await fetch(
+    `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${DATA_PATH}?ref=${BRANCH}&_=${Date.now()}`,
+    { cache: "no-store", headers }
+  );
+  const json = await res.json();
+  if (!json.content) throw new Error("no content");
+  return JSON.parse(decodeURIComponent(escape(atob(json.content.replace(/\n/g, "")))));
+}
+
+async function rawLoad() {
+  const res = await fetch(
+    `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/${BRANCH}/${DATA_PATH}?_=${Date.now()}`,
+    { cache: "no-store" }
+  );
+  if (!res.ok) throw new Error("raw failed");
+  return res.json();
+}
+
 async function loadData() {
-  // raw.githubusercontent.com has no meaningful rate limit; cache-bust query
-  // keeps it fresh. The API (60 req/hr unauthenticated) is the fallback.
-  try {
-    const res = await fetch(
-      `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/${BRANCH}/${DATA_PATH}?_=${Date.now()}`,
-      { cache: "no-store" }
-    );
-    if (!res.ok) throw new Error();
-    state = await res.json();
-  } catch {
+  // Signed-in editor: authenticated API first (always fresh, high rate limit).
+  // Anonymous viewer: raw.githubusercontent first (no rate limit).
+  const order = token ? [apiLoad, rawLoad] : [rawLoad, apiLoad];
+  for (const loader of order) {
     try {
-      const headers = token ? { Authorization: `token ${token}` } : {};
-      const res = await fetch(
-        `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${DATA_PATH}?ref=${BRANCH}&_=${Date.now()}`,
-        { cache: "no-store", headers }
-      );
-      const json = await res.json();
-      if (!json.content) throw new Error();
-      state = JSON.parse(decodeURIComponent(escape(atob(json.content.replace(/\n/g, "")))));
-    } catch {
-      const res = await fetch(`${DATA_PATH}?_=${Date.now()}`);
-      state = await res.json();
+      state = await loader();
+      render();
+      return;
+    } catch (e) {
+      /* try next source */
     }
   }
+  // Last resort: bundled copy from Pages
+  const res = await fetch(`${DATA_PATH}?_=${Date.now()}`);
+  state = await res.json();
   render();
 }
 
