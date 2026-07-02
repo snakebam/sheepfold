@@ -26,9 +26,19 @@ function todayStr() {
 }
 
 async function loadData() {
-  // cache-bust so viewers always see the latest committed state
-  const res = await fetch(`${DATA_PATH}?t=${Date.now()}`);
-  state = await res.json();
+  try {
+    // Always fetch from GitHub API directly to bypass Pages CDN cache
+    const res = await fetch(
+      `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${DATA_PATH}?ref=${BRANCH}&_=${Date.now()}`,
+      { cache: "no-store" }
+    );
+    const json = await res.json();
+    state = JSON.parse(decodeURIComponent(escape(atob(json.content.replace(/\n/g, "")))));
+  } catch {
+    // Fallback to bundled data.json if API unavailable
+    const res = await fetch(`${DATA_PATH}`);
+    state = await res.json();
+  }
   render();
 }
 
