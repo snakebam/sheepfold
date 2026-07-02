@@ -114,22 +114,17 @@
           "id": "d7t1",
           "text": "Line spread 4",
           "done": true
-        },
-        {
-          "id": "d14t1",
-          "text": "Sketch spread 8",
-          "done": false
-        },
-        {
-          "id": "d14t2",
-          "text": "Sketch spread 9",
-          "done": false
         }
       ]
     },
     {
       "date": "2026-07-03",
       "tasks": [
+        {
+          "id": "d9t1",
+          "text": "Line spread 6",
+          "done": false
+        },
         {
           "id": "d8t1",
           "text": "Line spread 5",
@@ -151,8 +146,13 @@
       "date": "2026-07-05",
       "tasks": [
         {
-          "id": "d9t1",
-          "text": "Line spread 6",
+          "id": "d14t1",
+          "text": "Sketch spread 8",
+          "done": false
+        },
+        {
+          "id": "d14t2",
+          "text": "Sketch spread 9",
           "done": false
         }
       ]
