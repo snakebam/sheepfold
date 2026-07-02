@@ -116,19 +116,34 @@
           "done": true
         },
         {
-          "id": "d8t1",
-          "text": "Line spread 5",
+          "id": "t1783008607795773",
+          "text": "re-do storyboard spread 12",
           "done": false
         },
         {
-          "id": "t1783008607795773",
-          "text": "re-do storyboard spread 12",
+          "id": "d14t1",
+          "text": "Sketch spread 8",
+          "done": false
+        },
+        {
+          "id": "d14t2",
+          "text": "Sketch spread 9",
           "done": false
         }
       ]
     },
     {
       "date": "2026-07-03",
+      "tasks": [
+        {
+          "id": "d8t1",
+          "text": "Line spread 5",
+          "done": false
+        }
+      ]
+    },
+    {
+      "date": "2026-07-04",
       "tasks": [
         {
           "id": "d9t1",
@@ -138,26 +153,11 @@
       ]
     },
     {
-      "date": "2026-07-04",
+      "date": "2026-07-05",
       "tasks": [
         {
           "id": "d10t1",
           "text": "Line spread 7",
-          "done": false
-        }
-      ]
-    },
-    {
-      "date": "2026-07-05",
-      "tasks": [
-        {
-          "id": "d14t1",
-          "text": "Sketch spread 8",
-          "done": false
-        },
-        {
-          "id": "d14t2",
-          "text": "Sketch spread 9",
           "done": false
         }
       ]
