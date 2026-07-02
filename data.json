@@ -116,36 +116,6 @@
           "done": true
         },
         {
-          "id": "d8t1",
-          "text": "Line spread 5",
-          "done": false
-        }
-      ]
-    },
-    {
-      "date": "2026-07-03",
-      "tasks": [
-        {
-          "id": "d9t1",
-          "text": "Line spread 6",
-          "done": false
-        }
-      ]
-    },
-    {
-      "date": "2026-07-04",
-      "tasks": [
-        {
-          "id": "d10t1",
-          "text": "Line spread 7",
-          "done": false
-        }
-      ]
-    },
-    {
-      "date": "2026-07-05",
-      "tasks": [
-        {
           "id": "d14t1",
           "text": "Sketch spread 8",
           "done": false
@@ -158,7 +128,7 @@
       ]
     },
     {
-      "date": "2026-07-06",
+      "date": "2026-07-03",
       "tasks": [
         {
           "id": "d15t2",
@@ -173,7 +143,7 @@
       ]
     },
     {
-      "date": "2026-07-07",
+      "date": "2026-07-04",
       "tasks": [
         {
           "id": "d16t1",
@@ -183,6 +153,36 @@
         {
           "id": "d16t2",
           "text": "Sketch spread 13",
+          "done": false
+        }
+      ]
+    },
+    {
+      "date": "2026-07-05",
+      "tasks": [
+        {
+          "id": "d8t1",
+          "text": "Line spread 5",
+          "done": false
+        }
+      ]
+    },
+    {
+      "date": "2026-07-06",
+      "tasks": [
+        {
+          "id": "d9t1",
+          "text": "Line spread 6",
+          "done": false
+        }
+      ]
+    },
+    {
+      "date": "2026-07-07",
+      "tasks": [
+        {
+          "id": "d10t1",
+          "text": "Line spread 7",
           "done": false
         }
       ]
