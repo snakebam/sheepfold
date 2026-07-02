@@ -26,18 +26,29 @@ function todayStr() {
 }
 
 async function loadData() {
+  // raw.githubusercontent.com has no meaningful rate limit; cache-bust query
+  // keeps it fresh. The API (60 req/hr unauthenticated) is the fallback.
   try {
-    // Always fetch from GitHub API directly to bypass Pages CDN cache
     const res = await fetch(
-      `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${DATA_PATH}?ref=${BRANCH}&_=${Date.now()}`,
+      `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/${BRANCH}/${DATA_PATH}?_=${Date.now()}`,
       { cache: "no-store" }
     );
-    const json = await res.json();
-    state = JSON.parse(decodeURIComponent(escape(atob(json.content.replace(/\n/g, "")))));
-  } catch {
-    // Fallback to bundled data.json if API unavailable
-    const res = await fetch(`${DATA_PATH}`);
+    if (!res.ok) throw new Error();
     state = await res.json();
+  } catch {
+    try {
+      const headers = token ? { Authorization: `token ${token}` } : {};
+      const res = await fetch(
+        `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${DATA_PATH}?ref=${BRANCH}&_=${Date.now()}`,
+        { cache: "no-store", headers }
+      );
+      const json = await res.json();
+      if (!json.content) throw new Error();
+      state = JSON.parse(decodeURIComponent(escape(atob(json.content.replace(/\n/g, "")))));
+    } catch {
+      const res = await fetch(`${DATA_PATH}?_=${Date.now()}`);
+      state = await res.json();
+    }
   }
   render();
 }
