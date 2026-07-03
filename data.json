@@ -136,11 +136,6 @@
       "date": "2026-07-03",
       "tasks": [
         {
-          "id": "d15t2",
-          "text": "Sketch spread 11",
-          "done": false
-        },
-        {
           "id": "d15t1",
           "text": "Sketch spread 10",
           "done": true
@@ -156,8 +151,8 @@
           "done": false
         },
         {
-          "id": "d16t2",
-          "text": "Sketch spread 13",
+          "id": "d15t2",
+          "text": "Sketch spread 11",
           "done": false
         }
       ]
