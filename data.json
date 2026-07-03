@@ -139,6 +139,11 @@
           "id": "d15t1",
           "text": "Sketch spread 10",
           "done": true
+        },
+        {
+          "id": "d15t2",
+          "text": "Sketch spread 11",
+          "done": false
         }
       ]
     },
@@ -148,11 +153,6 @@
         {
           "id": "d16t1",
           "text": "Sketch spread 12",
-          "done": false
-        },
-        {
-          "id": "d15t2",
-          "text": "Sketch spread 11",
           "done": false
         }
       ]
