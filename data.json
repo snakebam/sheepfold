@@ -138,12 +138,12 @@
         {
           "id": "d15t2",
           "text": "Sketch spread 11",
-          "done": true
+          "done": false
         },
         {
           "id": "d15t1",
           "text": "Sketch spread 10",
-          "done": false
+          "done": true
         }
       ]
     },
