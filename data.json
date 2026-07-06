@@ -154,16 +154,17 @@
     },
     {
       "date": "2026-07-05",
-      "tasks": []
-    },
-    {
-      "date": "2026-07-06",
       "tasks": [
         {
           "id": "d8t1",
           "text": "Line spread 5",
           "done": false
-        },
+        }
+      ]
+    },
+    {
+      "date": "2026-07-06",
+      "tasks": [
         {
           "id": "d7t1",
           "text": "Line spread 4",
