@@ -158,12 +158,7 @@
         {
           "id": "d8t1",
           "text": "Line spread 5",
-          "done": false
-        },
-        {
-          "id": "d7t1",
-          "text": "Line spread 4",
-          "done": false
+          "done": true
         }
       ]
     },
@@ -173,6 +168,11 @@
         {
           "id": "d9t1",
           "text": "Line spread 6",
+          "done": false
+        },
+        {
+          "id": "d7t1",
+          "text": "Line spread 4",
           "done": false
         }
       ]
