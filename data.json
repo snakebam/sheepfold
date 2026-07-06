@@ -181,6 +181,66 @@
       "date": "2026-07-08",
       "tasks": [
         {
+          "id": "d17t1",
+          "text": "Line spread 8",
+          "done": false
+        }
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "tasks": [
+        {
+          "id": "d18t1",
+          "text": "Line spread 9",
+          "done": false
+        }
+      ]
+    },
+    {
+      "date": "2026-07-10",
+      "tasks": [
+        {
+          "id": "d19t1",
+          "text": "Line spread 10",
+          "done": false
+        }
+      ]
+    },
+    {
+      "date": "2026-07-11",
+      "tasks": [
+        {
+          "id": "d20t1",
+          "text": "Line spread 11",
+          "done": false
+        }
+      ]
+    },
+    {
+      "date": "2026-07-12",
+      "tasks": [
+        {
+          "id": "d21t1",
+          "text": "Line spread 12",
+          "done": false
+        }
+      ]
+    },
+    {
+      "date": "2026-07-13",
+      "tasks": [
+        {
+          "id": "d22t1",
+          "text": "Line spread 13",
+          "done": false
+        }
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "tasks": [
+        {
           "id": "d11t1",
           "text": "Color spread 1",
           "done": false
@@ -193,22 +253,22 @@
       ]
     },
     {
-      "date": "2026-07-09",
+      "date": "2026-07-15",
       "tasks": [
-        {
-          "id": "d12t2",
-          "text": "Color spread 4",
-          "done": false
-        },
         {
           "id": "d12t1",
           "text": "Color spread 3",
+          "done": false
+        },
+        {
+          "id": "d12t2",
+          "text": "Color spread 4",
           "done": false
         }
       ]
     },
     {
-      "date": "2026-07-10",
+      "date": "2026-07-16",
       "tasks": [
         {
           "id": "d13t1",
@@ -218,71 +278,6 @@
         {
           "id": "d13t2",
           "text": "Color spread 6",
-          "done": false
-        },
-        {
-          "id": "d13t3",
-          "text": "Color spread 7",
-          "done": false
-        }
-      ]
-    },
-    {
-      "date": "2026-07-11",
-      "tasks": [
-        {
-          "id": "d17t1",
-          "text": "Line spread 8",
-          "done": false
-        }
-      ]
-    },
-    {
-      "date": "2026-07-12",
-      "tasks": [
-        {
-          "id": "d18t1",
-          "text": "Line spread 9",
-          "done": false
-        }
-      ]
-    },
-    {
-      "date": "2026-07-13",
-      "tasks": [
-        {
-          "id": "d19t1",
-          "text": "Line spread 10",
-          "done": false
-        }
-      ]
-    },
-    {
-      "date": "2026-07-14",
-      "tasks": [
-        {
-          "id": "d20t1",
-          "text": "Line spread 11",
-          "done": false
-        }
-      ]
-    },
-    {
-      "date": "2026-07-15",
-      "tasks": [
-        {
-          "id": "d21t1",
-          "text": "Line spread 12",
-          "done": false
-        }
-      ]
-    },
-    {
-      "date": "2026-07-16",
-      "tasks": [
-        {
-          "id": "d22t1",
-          "text": "Line spread 13",
           "done": false
         }
       ]
