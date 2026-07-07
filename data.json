@@ -189,12 +189,7 @@
           "id": "d18t1",
           "text": "Line spread 9",
           "done": false
-        }
-      ]
-    },
-    {
-      "date": "2026-07-09",
-      "tasks": [
+        },
         {
           "id": "d19t1",
           "text": "Line spread 10",
@@ -203,18 +198,13 @@
       ]
     },
     {
-      "date": "2026-07-10",
+      "date": "2026-07-09",
       "tasks": [
         {
           "id": "d20t1",
           "text": "Line spread 11",
           "done": false
-        }
-      ]
-    },
-    {
-      "date": "2026-07-11",
-      "tasks": [
+        },
         {
           "id": "d21t1",
           "text": "Line spread 12",
@@ -223,7 +213,7 @@
       ]
     },
     {
-      "date": "2026-07-12",
+      "date": "2026-07-10",
       "tasks": [
         {
           "id": "t1783436879513656",
@@ -233,16 +223,31 @@
       ]
     },
     {
-      "date": "2026-07-13",
+      "date": "2026-07-11",
       "tasks": [
         {
           "id": "d11t1",
           "text": "Color spread 1",
           "done": false
-        },
+        }
+      ]
+    },
+    {
+      "date": "2026-07-12",
+      "tasks": [
         {
           "id": "d11t2",
           "text": "Color spread 2",
+          "done": false
+        }
+      ]
+    },
+    {
+      "date": "2026-07-13",
+      "tasks": [
+        {
+          "id": "d12t2",
+          "text": "Color spread 4",
           "done": false
         }
       ]
@@ -253,11 +258,6 @@
         {
           "id": "d12t1",
           "text": "Color spread 3",
-          "done": false
-        },
-        {
-          "id": "d12t2",
-          "text": "Color spread 4",
           "done": false
         }
       ]
