@@ -203,12 +203,12 @@
         {
           "id": "d20t1",
           "text": "Line spread 11",
-          "done": false
+          "done": true
         },
         {
           "id": "d21t1",
           "text": "Line spread 12",
-          "done": false
+          "done": true
         }
       ]
     },
