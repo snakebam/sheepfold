@@ -216,8 +216,13 @@
       "date": "2026-07-10",
       "tasks": [
         {
-          "id": "t1783436879513656",
-          "text": "Clean up all gaps in line-art (hands, stick, enviornment)",
+          "id": "d11t1",
+          "text": "Color spread 1",
+          "done": true
+        },
+        {
+          "id": "d11t2",
+          "text": "Color spread 2",
           "done": false
         }
       ]
@@ -226,21 +231,15 @@
       "date": "2026-07-11",
       "tasks": [
         {
-          "id": "d11t1",
-          "text": "Color spread 1",
-          "done": true
+          "id": "t1783436879513656",
+          "text": "Clean up all gaps in line-art (hands, stick, enviornment)",
+          "done": false
         }
       ]
     },
     {
       "date": "2026-07-12",
-      "tasks": [
-        {
-          "id": "d11t2",
-          "text": "Color spread 2",
-          "done": false
-        }
-      ]
+      "tasks": []
     },
     {
       "date": "2026-07-13",
