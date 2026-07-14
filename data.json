@@ -246,8 +246,8 @@
       "date": "2026-07-14",
       "tasks": [
         {
-          "id": "d11t2",
-          "text": "Color spread 2",
+          "id": "t1784070158919774",
+          "text": "Re-do spread 2",
           "done": false
         }
       ]
@@ -258,6 +258,11 @@
         {
           "id": "d12t1",
           "text": "Color spread 3",
+          "done": false
+        },
+        {
+          "id": "d11t2",
+          "text": "Color spread 2",
           "done": false
         }
       ]
