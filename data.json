@@ -256,23 +256,8 @@
       "date": "2026-07-15",
       "tasks": [
         {
-          "id": "d13t1",
-          "text": "Color spread 5",
-          "done": false
-        },
-        {
-          "id": "d12t2",
-          "text": "Color spread 4",
-          "done": false
-        },
-        {
           "id": "d12t1",
           "text": "Color spread 3",
-          "done": false
-        },
-        {
-          "id": "d13t2",
-          "text": "Color spread 6",
           "done": false
         }
       ]
@@ -281,13 +266,8 @@
       "date": "2026-07-16",
       "tasks": [
         {
-          "id": "d23t1",
-          "text": "Color spread 7",
-          "done": false
-        },
-        {
-          "id": "d23t2",
-          "text": "Color spread 8",
+          "id": "d12t2",
+          "text": "Color spread 4",
           "done": false
         }
       ]
@@ -296,10 +276,45 @@
       "date": "2026-07-17",
       "tasks": [
         {
-          "id": "d24t2",
-          "text": "Color spread 10",
+          "id": "d13t1",
+          "text": "Color spread 5",
           "done": false
-        },
+        }
+      ]
+    },
+    {
+      "date": "2026-07-18",
+      "tasks": [
+        {
+          "id": "d13t2",
+          "text": "Color spread 6",
+          "done": false
+        }
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "tasks": [
+        {
+          "id": "d23t1",
+          "text": "Color spread 7",
+          "done": false
+        }
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "tasks": [
+        {
+          "id": "d23t2",
+          "text": "Color spread 8",
+          "done": false
+        }
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "tasks": [
         {
           "id": "d24t1",
           "text": "Color spread 9",
@@ -308,7 +323,17 @@
       ]
     },
     {
-      "date": "2026-07-18",
+      "date": "2026-07-22",
+      "tasks": [
+        {
+          "id": "d24t2",
+          "text": "Color spread 10",
+          "done": false
+        }
+      ]
+    },
+    {
+      "date": "2026-07-23",
       "tasks": [
         {
           "id": "d25t2",
@@ -318,7 +343,7 @@
       ]
     },
     {
-      "date": "2026-07-19",
+      "date": "2026-07-24",
       "tasks": [
         {
           "id": "d25t1",
@@ -328,7 +353,7 @@
       ]
     },
     {
-      "date": "2026-07-20",
+      "date": "2026-07-25",
       "tasks": [
         {
           "id": "d26t1",
@@ -336,26 +361,6 @@
           "done": false
         }
       ]
-    },
-    {
-      "date": "2026-07-21",
-      "tasks": []
-    },
-    {
-      "date": "2026-07-22",
-      "tasks": []
-    },
-    {
-      "date": "2026-07-23",
-      "tasks": []
-    },
-    {
-      "date": "2026-07-24",
-      "tasks": []
-    },
-    {
-      "date": "2026-07-25",
-      "tasks": []
     },
     {
       "date": "2026-07-26",
