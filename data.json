@@ -228,7 +228,7 @@
         {
           "id": "t1783436879513656",
           "text": "Clean up all gaps in line-art (hands, stick, enviornment)",
-          "done": false
+          "done": true
         }
       ]
     },
@@ -248,7 +248,7 @@
         {
           "id": "t1784070158919774",
           "text": "Re-do spread 2",
-          "done": false
+          "done": true
         }
       ]
     },
@@ -256,13 +256,13 @@
       "date": "2026-07-15",
       "tasks": [
         {
-          "id": "d12t1",
-          "text": "Color spread 3",
+          "id": "d11t2",
+          "text": "Color spread 2",
           "done": false
         },
         {
-          "id": "d11t2",
-          "text": "Color spread 2",
+          "id": "d12t2",
+          "text": "Color spread 4",
           "done": false
         }
       ]
@@ -271,8 +271,8 @@
       "date": "2026-07-16",
       "tasks": [
         {
-          "id": "d12t2",
-          "text": "Color spread 4",
+          "id": "d12t1",
+          "text": "Color spread 3",
           "done": false
         }
       ]
@@ -289,13 +289,7 @@
     },
     {
       "date": "2026-07-18",
-      "tasks": [
-        {
-          "id": "d13t2",
-          "text": "Color spread 6",
-          "done": false
-        }
-      ]
+      "tasks": []
     },
     {
       "date": "2026-07-19",
@@ -303,6 +297,11 @@
         {
           "id": "d23t1",
           "text": "Color spread 7",
+          "done": false
+        },
+        {
+          "id": "d13t2",
+          "text": "Color spread 6",
           "done": false
         }
       ]
