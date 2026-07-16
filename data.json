@@ -354,11 +354,23 @@
     },
     {
       "date": "2026-07-22",
-      "tasks": []
+      "tasks": [
+        {
+          "id": "t1784233132345866",
+          "text": "trace over hymn",
+          "done": false
+        }
+      ]
     },
     {
       "date": "2026-07-23",
-      "tasks": []
+      "tasks": [
+        {
+          "id": "t1784233137976182",
+          "text": "create font alphabet",
+          "done": false
+        }
+      ]
     },
     {
       "date": "2026-07-24",
