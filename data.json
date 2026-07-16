@@ -246,9 +246,9 @@
       "date": "2026-07-14",
       "tasks": [
         {
-          "id": "t1784070158919774",
-          "text": "Re-do spread 2",
-          "done": true
+          "id": "t1784229548461366",
+          "text": "re-do spread 2 sketch",
+          "done": false
         }
       ]
     },
@@ -256,13 +256,8 @@
       "date": "2026-07-15",
       "tasks": [
         {
-          "id": "d11t2",
-          "text": "Color spread 2",
-          "done": false
-        },
-        {
-          "id": "d12t2",
-          "text": "Color spread 4",
+          "id": "t1784229553744892",
+          "text": "re-do spread 2 lines",
           "done": false
         }
       ]
@@ -274,6 +269,11 @@
           "id": "d12t1",
           "text": "Color spread 3",
           "done": false
+        },
+        {
+          "id": "d12t2",
+          "text": "Color spread 4",
+          "done": false
         }
       ]
     },
@@ -283,6 +283,11 @@
         {
           "id": "d13t1",
           "text": "Color spread 5",
+          "done": false
+        },
+        {
+          "id": "d11t2",
+          "text": "Color spread 2",
           "done": false
         }
       ]
